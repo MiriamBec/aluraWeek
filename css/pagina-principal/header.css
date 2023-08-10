@@ -55,7 +55,7 @@
   justify-content: end;
   gap: 0.5rem;
   background-color: #0000004a;
-  padding: 0 1rem 1.5rem;
+  padding: 1rem;
 }
 
 .banner-subtitulo {
@@ -66,6 +66,6 @@
   width: fit-content;
   padding: 1rem;
   color: white;
-  background-color: #2A7AE4;
+  background-color: #2a7ae4;
   border: none;
 }
