@@ -1,0 +1,58 @@
+.sobre-nostros {
+  padding: 1rem;
+  background-color: #EAF2FD;
+}
+
+.sobre-nostros__menu {
+  text-align: center;
+}
+
+.sobre-nostros__lista {
+  list-style: none;
+}
+
+.sobre-nostros__lista__elementos {
+  margin-bottom: 1rem;
+}
+
+.sobre-nostros__lista__elementos a {
+  text-decoration: none;
+}
+
+/* Formulario */
+.div-formulario {
+  margin-top: 3rem;
+}
+.div-formulario__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.div-formulario_title {
+  margin-bottom: 1rem;
+}
+
+.div-formulario__input {
+  background-color: #fff;
+  border: none;
+  padding: 1rem;
+}
+
+.div-formulario__input:focus, .div-formulario__textarea {
+  outline: none;
+}
+
+.div-formulario__textarea {
+  border: none;
+  padding: 1rem;
+  resize: none;
+}
+
+.div-formulario__button {
+  width: fit-content;
+  padding: 1rem;
+  border: none;
+  background-color: #2A7AE4;
+  color: #fff;
+}

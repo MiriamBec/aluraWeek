@@ -1,0 +1,9 @@
+footer {
+  padding: 2rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer__parrafo {
+  margin-top: -5px;
+}
