@@ -42,6 +42,7 @@
 
 .div-formulario__input:focus {
   outline: none;
+  box-shadow: 0 2px 4px #2A7AE4;
 }
 
 .div-formulario__textarea {
