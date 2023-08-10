@@ -36,3 +36,36 @@
   color: #2A7AE4;
   border-color: #2A7AE4;
 }
+
+/* banner */
+.banner {
+  height: 250px;
+  background-image: url(../../img/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.banner__div {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 0.5rem;
+  background-color: #0000004a;
+  padding: 0 1rem 1.5rem;
+}
+
+.banner-subtitulo {
+  font-weight: 400;
+}
+
+.banner__button {
+  width: fit-content;
+  padding: 1rem;
+  color: white;
+  background-color: #2A7AE4;
+  border: none;
+}
