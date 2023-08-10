@@ -1,7 +1,38 @@
 .header {
+  padding: 1rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 120px;
 }
 
 .header__div {
+  width: 55%;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__buscador {
+  display: none;
+}
+
+.input__button {
+  background-color: unset;
+  border: none;
+}
+
+.input__button-vector {
+  width: 1.5rem;
+}
+
+.form__button-login {
+  padding: 0.6rem 2.5rem;
+  background-color: unset;
+  color: #2A7AE4;
+  border-color: #2A7AE4;
 }
